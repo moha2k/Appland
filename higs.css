@@ -1,0 +1,310 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.parts{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 34px 39px; */
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    /* margin-top: -8px; */
+}
+.parts h1{
+    color: rgb(126, 183, 214);
+    /* margin:1px 107px ; */
+    margin-left: 70px;
+}
+.parts .part2 ul{
+    display: flex;
+    gap: 19px;
+    padding-top: 17px;
+}
+.parts .part2 li{
+    list-style: none;
+}
+.parts .part2 ul li button{
+    color:white;
+    background-color: #5a5adf;
+    width: 136px;
+    height: 37px;
+    border-radius: 21px;
+    border: none;
+
+}
+.parts .part2 ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 44px;
+    color: grey;
+}
+.plays{
+    display: flex;
+}
+.plays .play1 h1{
+    color: rgb(80, 116, 233);
+    font-size:37px;
+}
+.plays .play1 p{
+    color: gray;
+}
+.plays .play2 img{
+    width: 400px;
+    padding: 19px 37px;
+    
+
+
+}
+.plays .play1{
+    padding: 37px 40px;
+    
+
+}
+.plays .play1 button{
+    width: 194px;
+    height: 43px;
+    background: #282626;
+    color: white;
+    margin-right: 44px;
+    font-size: 20px;
+
+
+
+
+}
+.remo{
+    /* text-align: center; */
+padding: 60PX 60PX;
+
+}
+.remo h3{
+    text-align: center;
+}
+.remo .myp{
+    text-align: center;
+}
+.remo .row{
+    display: flex;
+}
+.remo .row .col{
+    flex-basis: 30%;
+}
+.remo h3{
+    color: rgb(80, 116, 233);
+    font-size: 30px;
+    
+
+}
+.remo .row .col .box{
+    display: flex;
+
+}
+.remo .row .col .box .icon{
+    margin: 12px 18px;
+    font-size: 34px;
+    color: #2b2b82;
+
+}
+.remo .row .col .box .text{
+    margin: 3px 7px;
+    font-size: 16px;
+    text-align: left;
+}
+.jool{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.jool h2{
+    color: #5a5adf;
+}
+.jool p{
+        color: grey;
+ }
+.aar{
+    display: flex;
+    padding: 38px 66px;
+}
+.aar2 input{
+    width: 450px;
+    height: 53px;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.aar2 textarea{
+    width: 451px;
+    height: 120px;
+
+
+}
+.aar2{
+    padding: 10px 80px
+}
+.aar .aar1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+
+}
+.aar .aar1 div{
+    flex-basis: 45%;
+    background-color: rgb(233, 231, 255);
+    padding-top: 47px;
+    padding-left: 20px;
+}
+.aar .aar2 button{
+    width: 190px;
+    height: 56px;
+    border-radius: 29px;
+    border-color: blue;
+    color: blue;
+    background-color: white;
+    margin: 41px 130px;
+}
+.aar .aar2 button:hover{
+     background-color: #5a5adf;
+     color: white;
+
+}
+.main{
+    text-align: center;
+    margin: 55px 17px;
+    font-size: 15px;
+    background-color: #e2deff;
+    height: 195px;
+
+
+
+}
+.main input{
+    width: 378px;
+    height: 60px;
+    border-radius: 51px;
+    border:1px solid white
+    
+}
+.main button{
+    position: relative;
+    right: 60px;
+    width: 182px;
+    height: 60px;
+    border-radius: 31px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+
+
+}
+.ways{
+    display: flex;
+ justify-content: space-between;
+ padding: 60px 60px;
+
+
+
+}
+.ways .way1{
+
+}
+.ways .way1 h2{
+    color: rgb(62, 60, 60);
+
+
+
+}
+.ways .way1 p{
+    color: grey;
+
+
+}
+.ways .way2{
+
+}
+.ways .way3{
+
+
+
+}
+.ways .way2 ul li { 
+    list-style: none;
+
+}
+.ways .way2 ul li a{
+    text-decoration: none;
+}
+.ways .way2 ul li a:hover{
+    color: red;
+}
+.ways .way3 ul li{
+    list-style: none;
+}
+.ways .way3 ul li a{
+    text-decoration: none;
+}
+.ways .way3 ul li a:hover{
+    color: red;
+
+}
+.ways h4{
+    color: rgb(101, 98, 98);
+
+}
+.ways .way3 h2{
+    color: rgb(62, 60, 60);
+}
+.ways .way2 h4{
+    padding-left: 31px;
+}
+.ways .way3 h4{
+    padding-left: 31px;
+}
+.jow .icon i{
+    font-size: 24px;
+    margin-right: 15px;
+    background-color: blue;
+    color: white;
+    border-radius:8px;
+    border: 1px solid #1111d0;
+}
+.jow{
+    padding-left: 20px;
+}
+
+.icon i:hover{
+    background: white;
+    color: blue;
+}
+.asad{
+    display: flex;
+    background: rgb(230, 236, 255);
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+@media (max-width:991px) {
+    .parts .part2{
+        display: none;
+    }
+    
+}
+@media (max-width:767px) {
+    .plays{
+        flex-basis: 100% !important;
+        flex-wrap: wrap ;
+    }
+    }
+@media (max-width:991px) {
+    .remo .row  {
+        flex-basis: 100% !important;
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width:1144px) { 
+    .aar{
+        flex-basis:100%;
+        flex-wrap: wrap;
+    }
+    
+}
+
